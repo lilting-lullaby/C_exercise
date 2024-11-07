@@ -185,6 +185,13 @@ void Database_delete(struct Connection *conn, int id)
 {
     struct Address addr = {.id = id, .set = 0};
     conn->db->rows[id] = addr;
+    conn->db->rows[id].name = (char*)malloc(conn->db->MAX_DATA);
+    conn->db->rows[id].email = (char*)malloc(conn->db->MAX_DATA);
+    memset(conn->db->rows[id].name, 0, conn->db->MAX_DATA);
+    memset(conn->db->rows[id].email, 0, conn->db->MAX_DATA);
+ 
+  
+
 }
 
 void Database_list(struct Connection *conn)
