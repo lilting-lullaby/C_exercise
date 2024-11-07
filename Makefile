@@ -1,5 +1,5 @@
-CFLAGS=-Wall -g
-all: ex1 ex3 ex8 ex9 ex10 ex13 ex13_1 ex14 ex15
+CFLAGS=-Wall -g 
+all: ex1 ex3 ex8 ex9 ex10 ex13 ex13_1 ex14 ex15 ex16 ex17
 ex3: ex3.c
 	gcc -o ex3 ex3.c
 ex1: ex1.c
@@ -18,6 +18,10 @@ ex14: ex14.c
 	gcc -o ex14 ex14.c
 ex15: ex15.c
 	gcc -g -o ex15 ex15.c
+ex16: ex16.c
+	gcc -g -o ex16 ex16.c
+ex17: ex17.c
+	gcc -g -o ex17 ex17.c
 clean:
 	rm -f ex1
 	rm -f ex3
@@ -28,3 +32,5 @@ clean:
 	rm -f ex13_1
 	rm -f ex14
 	rm -f ex15
+	rm -f ex16
+	rm -f ex17
