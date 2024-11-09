@@ -89,6 +89,7 @@ int main(int argc,char *argv[]){
 
         sort_test(number,count,reverse_order,sort_direct);
 
+//        sort_test(number,count,reverse_order,NULL);
 	free(number);
 	return 0 ;
 }
