@@ -1,0 +1,33 @@
+cc -g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG  build/lcthw/list.a       tests/list_tests.c   -o tests/list_tests
+In file included from tests/list_tests.c:1:
+tests/list_tests.c: In function ‘main’:
+tests/minunit.h:15:38: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   15 | #define RUN_TESTS(name) int main(int argc, char *argv[]) {\
+      |                                  ~~~~^~~~
+tests/list_tests.c:113:1: note: in expansion of macro ‘RUN_TESTS’
+  113 | RUN_TESTS(all_tests);
+      | ^~~~~~~~~
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_create':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:13: undefined reference to `List_create'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_destroy':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:22: undefined reference to `List_clear_destroy'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_push_pop':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:31: undefined reference to `List_push'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:34: undefined reference to `List_push'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:37: undefined reference to `List_push'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:41: undefined reference to `List_pop'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:44: undefined reference to `List_pop'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:47: undefined reference to `List_pop'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_unshift':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:56: undefined reference to `List_unshift'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:59: undefined reference to `List_unshift'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:62: undefined reference to `List_unshift'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_remove':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:74: undefined reference to `List_remove'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_shift':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:88: undefined reference to `List_shift'
+/usr/bin/ld: //home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:91: undefined reference to `List_shift'
+/usr/bin/ld: /tmp/ccrzBuOA.o: in function `test_destroy':
+//home/wanghe/template/C_exercise/liblcthw/tests/list_tests.c:22: undefined reference to `List_clear_destroy'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: tests/list_tests] Error 1
