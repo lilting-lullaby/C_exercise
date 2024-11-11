@@ -95,6 +95,44 @@ char *test_shift()
     return NULL;
 }
 
+char *test_copy()
+{
+	List *copy = List_copy(list);
+	mu_assert(List_first(copy)==test3,"Wrong first after copy");
+	
+	mu_assert(List_last(copy)==test1,"Wrong last after copy");
+	return NULL;
+}
+
+
+char *test_connect()
+{
+	List *copy = List_copy(list);
+	List *connect = List_connect(list,copy);
+	mu_assert(List_first(connect)==test3,"Wrong first after connect");
+	
+	mu_assert(List_last(connect)==test1,"Wrong last after connecct");
+
+	mu_assert(connect->first->next->value==test1,"Wrong after connecct");
+
+	mu_assert(connect->last->prev->value==test3,"Wrong last after connecct");
+
+	mu_assert(connect->count == 4,"Wrong last after connecct");
+
+	
+	return NULL;
+}
+
+char *test_split()
+{
+	List *copy = List_copy(list);
+	List *connect = List_connect(list,copy);
+	List *splited = List_split(connect,2,3);
+	mu_assert(List_first(splited)==test1,"Wrong first after split");
+	mu_assert(List_last(splited)==test3,"Wrong last after split");
+        return NULL;	
+}
+
 
 
 char *all_tests() {
@@ -104,6 +142,9 @@ char *all_tests() {
     mu_run_test(test_push_pop);
     mu_run_test(test_unshift);
     mu_run_test(test_remove);
+    mu_run_test(test_copy);
+    mu_run_test(test_connect);
+    mu_run_test(test_split);
     mu_run_test(test_shift);
     mu_run_test(test_destroy);
 

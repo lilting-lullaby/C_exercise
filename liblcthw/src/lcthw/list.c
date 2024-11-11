@@ -121,15 +121,66 @@ error:
 	return result;	
 }
 
+List *List_copy(List *list)
+{	
+	List *copy = List_create();
+        if(list->first==list->last){
+		List_push(copy,list->first->value);
+	}else{
+		
+	LIST_FOREACH(list,first,next,cur){
+		if(cur->value){
+		List_push(copy,cur->value);
+		}
+	}
+	}	
+	return copy;
+}
+
+List *List_connect(List *first,List *second )
+{
+	List *former = List_copy(first);
+        List *later = List_copy(second);
+	List *connected = List_create();
+	if(former->first!=NULL && later->first!=NULL)
+	{
+	connected->first = former->first;
+	connected->last = later->last;
+	former->last->next = later->first;
+	later->first->prev = former->last;
+	connected->count = former->count + later->count;
+	}
+	return connected;
+}
+
+List *List_split(List *list,int begin,int end)
+{	
+	int a = begin;
+	int b = end;
+	check(0 < a && a <= b && b <= list->count,"Invalid output");
+       	List *splited = List_create();
+	int i = 0;
+	LIST_FOREACH(list,first,next,cur){
+		if(cur->value){
+			i++;
+			if(i==a){
+				splited->first = cur;
+				splited->first->prev = NULL;
+			}else if(i==b){
+				splited->last = cur;
+				splited->last->next = NULL;
+			}
+			
+		}
+	}
+	splited->count = b-a+1;
+	return splited;
 
 
 
-
-
-
-
-
-
+error:
+	return NULL;
+}
 
 
 

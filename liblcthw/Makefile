@@ -31,7 +31,7 @@ $(TARGET): build $(OBJECTS)
 
 
 $(SO_TARGET): $(TARGET) $(OBJECTS)
-	$(CC) -shared -o $@ $(OBJECTS)
+	$(CC) -shared -o $@ $(TARGET)
 
 #$(TESTS): %: %.c $(TARGET)
 $(TESTS): %: $(TEST_SRC) $(TARGET)
