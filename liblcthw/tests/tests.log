@@ -1,85 +1,126 @@
-DEBUG tests/list_tests.c:144: ----- RUNNING: ./tests/list_tests
-DEBUG tests/list_tests.c:132: 
------ test_create
-DEBUG tests/list_tests.c:133: 
------ test_push_pop
-DEBUG tests/list_tests.c:134: 
------ test_unshift
-DEBUG tests/list_tests.c:135: 
------ test_remove
-DEBUG tests/list_tests.c:136: 
------ test_copy
-DEBUG tests/list_tests.c:137: 
------ test_connect
-DEBUG tests/list_tests.c:138: 
------ test_shift
-DEBUG tests/list_tests.c:139: 
------ test_destroy
-DEBUG tests/list_tests.c:144: ----- RUNNING: ./tests/list_tests
-DEBUG tests/list_tests.c:132: 
------ test_create
-DEBUG tests/list_tests.c:133: 
------ test_push_pop
-DEBUG tests/list_tests.c:134: 
------ test_unshift
-DEBUG tests/list_tests.c:135: 
------ test_remove
-DEBUG tests/list_tests.c:136: 
------ test_copy
-DEBUG tests/list_tests.c:137: 
------ test_connect
-DEBUG tests/list_tests.c:138: 
------ test_shift
-DEBUG tests/list_tests.c:139: 
------ test_destroy
-DEBUG tests/list_tests.c:145: ----- RUNNING: ./tests/list_tests
-DEBUG tests/list_tests.c:133: 
------ test_create
-DEBUG tests/list_tests.c:134: 
------ test_push_pop
-DEBUG tests/list_tests.c:135: 
------ test_unshift
-DEBUG tests/list_tests.c:136: 
------ test_remove
-DEBUG tests/list_tests.c:137: 
------ test_copy
-DEBUG tests/list_tests.c:138: 
------ test_connect
-DEBUG tests/list_tests.c:139: 
------ test_shift
-DEBUG tests/list_tests.c:140: 
------ test_destroy
-DEBUG tests/list_tests.c:145: ----- RUNNING: ./tests/list_tests
-DEBUG tests/list_tests.c:133: 
------ test_create
-DEBUG tests/list_tests.c:134: 
------ test_push_pop
-DEBUG tests/list_tests.c:135: 
------ test_unshift
-DEBUG tests/list_tests.c:136: 
------ test_remove
-DEBUG tests/list_tests.c:137: 
------ test_copy
-DEBUG tests/list_tests.c:138: 
------ test_connect
-[ERROR] (tests/list_tests.c:120 in test_connect: errno: None) Wrong last after connecct
-DEBUG tests/list_tests.c:145: ----- RUNNING: ./tests/list_tests
-DEBUG tests/list_tests.c:133: 
------ test_create
-DEBUG tests/list_tests.c:134: 
------ test_push_pop
-DEBUG tests/list_tests.c:135: 
------ test_unshift
-DEBUG tests/list_tests.c:136: 
------ test_remove
-DEBUG tests/list_tests.c:137: 
------ test_copy
-DEBUG tests/list_tests.c:138: 
------ test_connect
-DEBUG tests/list_tests.c:139: 
------ test_shift
-DEBUG tests/list_tests.c:140: 
------ test_destroy
+DEBUG tests/list_algos_tests.c:164: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:156: 
+----- test_bubble_sort
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:96: The value of rc is:0
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:157: 
+----- test_merge_sort
+DEBUG tests/list_algos_tests.c:158: 
+----- test_show_time
+DEBUG tests/list_algos_tests.c:30: M is 6
+DEBUG tests/list_algos_tests.c:33: lenth is: 53
+DEBUG tests/list_algos_tests.c:64: start is 524
+DEBUG tests/list_algos_tests.c:65: lenth of words:53
+DEBUG tests/list_algos_tests.c:72: end is 554
+DEBUG tests/list_algos_tests.c:74: TIME is 0.000030
+DEBUG tests/list_algos_tests.c:77: start is 577
+DEBUG tests/list_algos_tests.c:78: lenth of words:53
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 53
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:82: end is 599
+DEBUG tests/list_algos_tests.c:84: TIME is 0.000022
+DEBUG tests/list_algos_tests.c:159: 
+----- test_insert_sorted
+DEBUG tests/list_algos_tests.c:30: M is 6
+DEBUG tests/list_algos_tests.c:33: lenth is: 53
+DEBUG tests/list_algos_tests.c:125: words count is 53
+DEBUG src/lcthw/list_algos.c:91: THE value is :; 1234
+DEBUG src/lcthw/list_algos.c:92: THE list count is 53 in insert_sorted
+DEBUG tests/list_algos_tests.c:127: words count is 54
+DEBUG src/lcthw/list_algos.c:91: THE value is :; abcd
+DEBUG src/lcthw/list_algos.c:92: THE list count is 54 in insert_sorted
+DEBUG tests/list_algos_tests.c:130: words count is 55
+DEBUG src/lcthw/list_algos.c:91: THE value is :; xjvef
+DEBUG src/lcthw/list_algos.c:92: THE list count is 55 in insert_sorted
+DEBUG tests/list_algos_tests.c:133: words count is 56
+DEBUG tests/list_algos_tests.c:160: 
+----- test_merge_sort_bt
+DEBUG tests/list_algos_tests.c:30: M is 6
+DEBUG tests/list_algos_tests.c:33: lenth is: 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 32
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 1
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 1
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 5
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 5
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 21
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
 DEBUG tests/list_tests.c:154: ----- RUNNING: ./tests/list_tests
 DEBUG tests/list_tests.c:141: 
 ----- test_create
@@ -98,4 +139,511 @@ DEBUG tests/list_tests.c:147:
 DEBUG tests/list_tests.c:148: 
 ----- test_shift
 DEBUG tests/list_tests.c:149: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:164: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:156: 
+----- test_bubble_sort
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:96: The value of rc is:0
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:157: 
+----- test_merge_sort
+DEBUG tests/list_algos_tests.c:158: 
+----- test_show_time
+DEBUG tests/list_algos_tests.c:30: M is 9
+DEBUG tests/list_algos_tests.c:33: lenth is: 117
+DEBUG tests/list_algos_tests.c:64: start is 543
+DEBUG tests/list_algos_tests.c:65: lenth of words:117
+DEBUG tests/list_algos_tests.c:72: end is 615
+DEBUG tests/list_algos_tests.c:74: TIME is 0.000072
+DEBUG tests/list_algos_tests.c:77: start is 631
+DEBUG tests/list_algos_tests.c:78: lenth of words:117
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 117
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:82: end is 694
+DEBUG tests/list_algos_tests.c:84: TIME is 0.000063
+DEBUG tests/list_algos_tests.c:159: 
+----- test_insert_sorted
+DEBUG tests/list_algos_tests.c:30: M is 9
+DEBUG tests/list_algos_tests.c:33: lenth is: 117
+DEBUG tests/list_algos_tests.c:125: words count is 117
+DEBUG src/lcthw/list_algos.c:91: THE value is :; 1234
+DEBUG src/lcthw/list_algos.c:92: THE list count is 117 in insert_sorted
+DEBUG tests/list_algos_tests.c:127: words count is 118
+DEBUG src/lcthw/list_algos.c:91: THE value is :; abcd
+DEBUG src/lcthw/list_algos.c:92: THE list count is 118 in insert_sorted
+DEBUG tests/list_algos_tests.c:130: words count is 119
+DEBUG src/lcthw/list_algos.c:91: THE value is :; xjvef
+DEBUG src/lcthw/list_algos.c:92: THE list count is 119 in insert_sorted
+DEBUG tests/list_algos_tests.c:133: words count is 120
+DEBUG tests/list_algos_tests.c:160: 
+----- test_merge_sort_bt
+DEBUG tests/list_algos_tests.c:30: M is 9
+DEBUG tests/list_algos_tests.c:33: lenth is: 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 32
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 32
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 64
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 32
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 1
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 1
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 5
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 5
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 21
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 53
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 117
+DEBUG tests/list_tests.c:154: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:141: 
+----- test_create
+DEBUG tests/list_tests.c:142: 
+----- test_push_pop
+DEBUG tests/list_tests.c:143: 
+----- test_unshift
+DEBUG tests/list_tests.c:144: 
+----- test_remove
+DEBUG tests/list_tests.c:145: 
+----- test_copy
+DEBUG tests/list_tests.c:146: 
+----- test_connect
+DEBUG tests/list_tests.c:147: 
+----- test_split
+DEBUG tests/list_tests.c:148: 
+----- test_shift
+DEBUG tests/list_tests.c:149: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+[ERROR] (tests/queue_tests.c:31 in test_send_recv: errno: None) Wrong next value.
+DEBUG tests/list_algos_tests.c:164: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:156: 
+----- test_bubble_sort
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:96: The value of rc is:0
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:157: 
+----- test_merge_sort
+DEBUG tests/list_algos_tests.c:158: 
+----- test_show_time
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 40
+DEBUG tests/list_algos_tests.c:64: start is 535
+DEBUG tests/list_algos_tests.c:65: lenth of words:40
+DEBUG tests/list_algos_tests.c:72: end is 553
+DEBUG tests/list_algos_tests.c:74: TIME is 0.000018
+DEBUG tests/list_algos_tests.c:77: start is 567
+DEBUG tests/list_algos_tests.c:78: lenth of words:40
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 40
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:82: end is 588
+DEBUG tests/list_algos_tests.c:84: TIME is 0.000021
+DEBUG tests/list_algos_tests.c:159: 
+----- test_insert_sorted
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 40
+DEBUG tests/list_algos_tests.c:125: words count is 40
+DEBUG src/lcthw/list_algos.c:91: THE value is :; 1234
+DEBUG src/lcthw/list_algos.c:92: THE list count is 40 in insert_sorted
+DEBUG tests/list_algos_tests.c:127: words count is 41
+DEBUG src/lcthw/list_algos.c:91: THE value is :; abcd
+DEBUG src/lcthw/list_algos.c:92: THE list count is 41 in insert_sorted
+DEBUG tests/list_algos_tests.c:130: words count is 42
+DEBUG src/lcthw/list_algos.c:91: THE value is :; xjvef
+DEBUG src/lcthw/list_algos.c:92: THE list count is 42 in insert_sorted
+DEBUG tests/list_algos_tests.c:133: words count is 43
+DEBUG tests/list_algos_tests.c:160: 
+----- test_merge_sort_bt
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 32
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 40
+DEBUG tests/list_tests.c:154: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:141: 
+----- test_create
+DEBUG tests/list_tests.c:142: 
+----- test_push_pop
+DEBUG tests/list_tests.c:143: 
+----- test_unshift
+DEBUG tests/list_tests.c:144: 
+----- test_remove
+DEBUG tests/list_tests.c:145: 
+----- test_copy
+DEBUG tests/list_tests.c:146: 
+----- test_connect
+DEBUG tests/list_tests.c:147: 
+----- test_split
+DEBUG tests/list_tests.c:148: 
+----- test_shift
+DEBUG tests/list_tests.c:149: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:55: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:164: ----- RUNNING: ./tests/list_algos_tests
+DEBUG tests/list_algos_tests.c:156: 
+----- test_bubble_sort
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:96: The value of rc is:0
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 10
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:157: 
+----- test_merge_sort
+DEBUG tests/list_algos_tests.c:158: 
+----- test_show_time
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 24
+DEBUG tests/list_algos_tests.c:64: start is 936
+DEBUG tests/list_algos_tests.c:65: lenth of words:24
+DEBUG tests/list_algos_tests.c:72: end is 957
+DEBUG tests/list_algos_tests.c:74: TIME is 0.000021
+DEBUG tests/list_algos_tests.c:77: start is 975
+DEBUG tests/list_algos_tests.c:78: lenth of words:24
+DEBUG src/lcthw/list_algos.c:8: the lenth of list is: 24
+DEBUG src/lcthw/list_algos.c:27: the value of sort:0
+DEBUG tests/list_algos_tests.c:82: end is 992
+DEBUG tests/list_algos_tests.c:84: TIME is 0.000017
+DEBUG tests/list_algos_tests.c:159: 
+----- test_insert_sorted
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 24
+DEBUG tests/list_algos_tests.c:125: words count is 24
+DEBUG src/lcthw/list_algos.c:91: THE value is :; 1234
+DEBUG src/lcthw/list_algos.c:92: THE list count is 24 in insert_sorted
+DEBUG tests/list_algos_tests.c:127: words count is 25
+DEBUG src/lcthw/list_algos.c:91: THE value is :; abcd
+DEBUG src/lcthw/list_algos.c:92: THE list count is 25 in insert_sorted
+DEBUG tests/list_algos_tests.c:130: words count is 26
+DEBUG src/lcthw/list_algos.c:91: THE value is :; xjvef
+DEBUG src/lcthw/list_algos.c:92: THE list count is 26 in insert_sorted
+DEBUG tests/list_algos_tests.c:133: words count is 27
+DEBUG tests/list_algos_tests.c:160: 
+----- test_merge_sort_bt
+DEBUG tests/list_algos_tests.c:30: M is 7
+DEBUG tests/list_algos_tests.c:33: lenth is: 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 16
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 2
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 4
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 0
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 8
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG src/lcthw/list_algos.c:158: COUNT OF LIST IS 24
+DEBUG tests/list_tests.c:154: ----- RUNNING: ./tests/list_tests
+DEBUG tests/list_tests.c:141: 
+----- test_create
+DEBUG tests/list_tests.c:142: 
+----- test_push_pop
+DEBUG tests/list_tests.c:143: 
+----- test_unshift
+DEBUG tests/list_tests.c:144: 
+----- test_remove
+DEBUG tests/list_tests.c:145: 
+----- test_copy
+DEBUG tests/list_tests.c:146: 
+----- test_connect
+DEBUG tests/list_tests.c:147: 
+----- test_split
+DEBUG tests/list_tests.c:148: 
+----- test_shift
+DEBUG tests/list_tests.c:149: 
+----- test_destroy
+DEBUG tests/queue_tests.c:60: ----- RUNNING: ./tests/queue_tests
+DEBUG tests/queue_tests.c:53: 
+----- test_create
+DEBUG tests/queue_tests.c:54: 
+----- test_send_recv
+DEBUG tests/queue_tests.c:37: VAL: test3 data
+DEBUG tests/queue_tests.c:37: VAL: test2 data
+DEBUG tests/queue_tests.c:37: VAL: test1 data
+DEBUG tests/queue_tests.c:55: 
+----- test_destroy
+DEBUG tests/stack_tests.c:60: ----- RUNNING: ./tests/stack_tests
+DEBUG tests/stack_tests.c:53: 
+----- test_create
+DEBUG tests/stack_tests.c:54: 
+----- test_push_pop
+DEBUG tests/stack_tests.c:37: VAL: test1 data
+DEBUG tests/stack_tests.c:37: VAL: test2 data
+DEBUG tests/stack_tests.c:37: VAL: test3 data
+DEBUG tests/stack_tests.c:55: 
 ----- test_destroy

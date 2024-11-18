@@ -1,11 +1,11 @@
-CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG $(OPTFLAGS)
+CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic $(OPTFLAGS)
 LIBS=-ldl $(OPTLIBS)
 PREFIX?=/usr/local
 
 SOURCES=$(wildcard src/**/*.c src/*.c)
 OBJECTS=$(patsubst %.c,%.o,$(SOURCES))
-
-TEST_SRC=$(wildcard tests/*_tests.c)
+#M ?= list
+TEST_SRC=$(wildcard tests/*tests.c)
 TESTS=$(patsubst %.c,%,$(TEST_SRC))
 
 #TARGET=$(wildcard src/**/lib*.c src/lib*.c)
@@ -35,7 +35,7 @@ $(SO_TARGET): $(TARGET) $(OBJECTS)
 
 #$(TESTS): %: %.c $(TARGET)
 $(TESTS): %: $(TEST_SRC) $(TARGET)
-	$(CC) $(CFLAGS) $(TEST_SRC) $(TARGET) -o $@
+	$(CC) $(CFLAGS) $@.c $(TARGET) -o $@ #.c让其依赖自身，而不依赖另一个tests
 
 build:
 	@mkdir -p build/lcthw

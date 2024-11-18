@@ -182,7 +182,15 @@ error:
 	return NULL;
 }
 
-
+void List_show(List *list)
+{
+	LIST_FOREACH(list,first,next,cur){
+		if(cur->next){
+			printf("%s   ",(char *)cur->value);	
+		}
+	}
+	printf("\n");
+}
 
 
 
